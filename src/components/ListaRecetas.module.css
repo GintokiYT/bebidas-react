@@ -1,0 +1,17 @@
+.contenedor {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    columns: 2 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contenedor {
+    columns: 3 auto;
+  }
+}

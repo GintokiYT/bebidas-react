@@ -1,0 +1,34 @@
+.card {
+  padding: 1rem;
+  border: 1px solid #777;
+  margin-bottom: 1rem;
+}
+
+.receta {
+  display: grid;
+  break-inside: avoid;
+}
+
+.receta h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--step--1);
+  margin-bottom: 1rem;
+}
+
+.receta button {
+  border: none;
+  font-size: var(--step--1);
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  background-color: #264fd2;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  padding: .5rem 0;
+  cursor: pointer;
+}
+
+.receta button:hover {
+  background-color: #2e55d2;
+}

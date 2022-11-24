@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  background-color: #D92041;
+}
+
+.headerTitulo {
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+  font-size: var(--step-2);
+}
